@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75,300;1,75,300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -64,4 +65,51 @@ li {
 .row {
     width: 100%;
     max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*
+
+ABOUT
+
+*/
+
+#about {
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
 }
